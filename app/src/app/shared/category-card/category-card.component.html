@@ -1,0 +1,9 @@
+<div class="bg-[#FEEDF7] rounded-[1.5rem] p-[1rem] flex justify-center items-center">
+  <div class="bg-[var(--main-color)] p-[1.5rem] aspect-square w-[90px] rounded-[100%] grid place-items-center">
+    <img [src]="category().image" class="text-white" [alt]="category().name">
+  </div>
+  <div class="flex flex-col ms-[1rem]">
+    <h2 class="text-[#160E4B] whitespace-nowrap">{{category().name}}</h2>
+    <h3 class="text-[#757F95] whitespace-nowrap ">{{category().productsCount}} items</h3>
+  </div>
+</div>

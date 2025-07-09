@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@use "tailwindcss";
+@plugin "daisyui";
+:root{
+  --main-color:#F82BA9
+}
+.login
+{
+  background-color: var(--main-color);
+  padding-inline:1.5rem ;
+  padding-block: .5rem;
+  border-radius:2rem;
+  width: fit-content;
+}

@@ -1,0 +1,46 @@
+<div class="navbar mx-auto w-[95%]">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16"
+          />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class=" menu-sm text-black dropdown-content rounded-box z-1 mt-3 w-52 p-2"
+      >
+        <li><a routerLinkActive="active-link" routerLink="/Home">Home</a></li>
+        <li><a routerLinkActive="active-link" routerLink="/All_Category">All Category</a></li>
+        <li><a routerLinkActive="active-link" routerLink="/About">About</a></li>
+        <li><a routerLinkActive="active-link" routerLink="/Contact">Contact</a></li>
+      </ul>
+    </div>
+    <a class="text-xl">
+      <img class="w-[84px h-[84px]]" src="Rose_logo.svg" alt="logo" />
+    </a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="gap-[2rem] text-black var menu-horizontal px-1">
+      <li><a routerLinkActive="active-link" routerLink="/Home">Home</a></li>
+      <li><a routerLinkActive="active-link" routerLink="/All_Category">All Category</a></li>
+      <li><a routerLinkActive="active-link" routerLink="/About">About</a></li>
+      <li><a routerLinkActive="active-link" routerLink="/Contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <span class="me-2 text-[var(--main-color)]"><i class="fa-solid fa-search"></i></span>
+    <button class="login text-white">login</button>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+/* Global overrides */
+.active-link {
+  @apply text-[var(--main-color)];
+}
+
